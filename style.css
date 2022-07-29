@@ -79,7 +79,7 @@ body {
 
 .phone__ico {
     padding-right: 10px;
-    cursor: pointer;
+    
 }
 
 .phone__number {
@@ -89,6 +89,7 @@ body {
 
 .contacts__description-phone {
     transition: .4s;
+    cursor: pointer;
 }
 
 .contacts__description-phone:hover {
@@ -353,17 +354,16 @@ body {
     transform: translateY(-50%);
     z-index: 10;
     cursor: pointer;
+    padding: 3px 12px;
 }
 
 .left {
-    padding: 3px 12px;
     border: 1px solid #FFFFFF;
     border-radius: 50%;
     left: 15px;
 }
 
 .right {
-    padding: 3px 12px;
     border: 1px solid #FFFFFF;
     border-radius: 50%;
     right: 15px;
@@ -447,7 +447,7 @@ body {
     position: relative;
 }
 
-.categories__item svg:hover {
+.categories__item:hover svg {
     fill-opacity: 1;
     fill: #44C697;
     stroke: #44C697;
@@ -698,7 +698,7 @@ body {
 .arrow__move {
     display: block;
     position: absolute;
-    padding: 17px 25px;
+    padding: 13px 17px;
     background: #44C697;
     border-radius: 50%;
     z-index: 10;

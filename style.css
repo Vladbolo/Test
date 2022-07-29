@@ -150,6 +150,10 @@ body {
     align-items: center;
 }
 
+.offer a {
+    margin-left: -13%;
+}
+
 .offer__list {
     display: flex;
     gap: 15px;
